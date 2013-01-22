@@ -18,6 +18,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+default['redis']['bind'] = nil
 default['redis']['source']['version'] = "2.6.9"
 default['redis']['source']['prefix']  = "/usr/local"
 
